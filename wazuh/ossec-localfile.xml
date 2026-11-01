@@ -1,0 +1,11 @@
+<!--
+  Agent side: read Cowrie's JSON log. Add this block to the agent's ossec.conf
+  (or to a centralized agent.conf) and adjust the path to your installation.
+  With the official Docker image, the log lives in the container at
+  /cowrie/cowrie-git/var/log/cowrie/cowrie.json: mount that directory as a
+  volume and point the agent at the host path.
+-->
+<localfile>
+  <log_format>json</log_format>
+  <location>/path/to/cowrie/var/log/cowrie/cowrie.json</location>
+</localfile>
