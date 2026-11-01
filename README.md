@@ -13,6 +13,8 @@ Live page: [goodbytes.fr/honeypot-attack-observatory/](https://goodbytes.fr/hone
 | `wazuh/cowrie_rules.xml` | Wazuh rules for Cowrie's JSON log (connection, failed login, login accepted by the decoy, command) | MIT |
 | `wazuh/ossec-localfile.xml` | Agent block that reads Cowrie's JSON log | MIT |
 
+`data/` is refreshed every Monday at 05:30 UTC by a GitHub Actions job (`.github/workflows/update.yml`) that copies the public files from goodbytes.fr, checks them (structure, date, no IP address) and commits only when they changed.
+
 ## How the figures are produced
 
 The decoy is a [Cowrie](https://github.com/cowrie/cowrie) honeypot imitating an SSH and Telnet server. It holds no real data and every connection to it is unsolicited. Only aggregates are published: no IP address, no raw session; non-public addresses are excluded. Credentials and commands are text written by attackers: in the CSV, a cell starting with `=`, `+`, `-` or `@` is prefixed with `'` so that spreadsheets do not run it as a formula.
