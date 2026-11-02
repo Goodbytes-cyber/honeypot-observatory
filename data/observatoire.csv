@@ -1,91 +1,91 @@
 section,rank,label,value
 meta,,source,"GoodBytes honeypot observatory (goodbytes.fr), CC BY 4.0"
 meta,,period_start_utc,2026-09-13T12:51:28Z
-meta,,period_end_utc,2026-10-31T23:59:59Z
-meta,,open_days,43
-meta,,open_seconds,3668912
+meta,,period_end_utc,2026-11-01T23:59:59Z
+meta,,open_days,44
+meta,,open_seconds,3755312
 meta,,geoip,"DB-IP Lite 2026-11 (db-ip.com, CC BY 4.0)"
-totals,,sessions,280411
-totals,,ips,9172
-totals,,seconds_per_session,13.1
-totals,,sessions_with_commands,231752
-totals,,files,158
-totals,,deposits,5383
-totals,,deposits_url,1683
-totals,,deposits_redirect,3700
-totals,,uploads,811
-protocols,,SSH,244806
-protocols,,Telnet,35605
-countries_ips,1,US United States,1429
-countries_ips,2,CN China,1330
-countries_ips,3,KR South Korea,514
-countries_ips,4,RU Russia,489
-countries_ips,5,UA Ukraine,390
-countries_ips,6,IN India,362
-countries_ips,7,NL The Netherlands,313
-countries_ips,8,BR Brazil,312
-countries_ips,9,PK Pakistan,300
-countries_ips,10,AR Argentina,266
-countries_sessions,1,NL The Netherlands,141657
-countries_sessions,2,RU Russia,35498
-countries_sessions,3,US United States,21628
+totals,,sessions,285402
+totals,,ips,9332
+totals,,seconds_per_session,13.2
+totals,,sessions_with_commands,235993
+totals,,files,162
+totals,,deposits,5548
+totals,,deposits_url,1767
+totals,,deposits_redirect,3781
+totals,,uploads,931
+protocols,,SSH,249312
+protocols,,Telnet,36090
+countries_ips,1,US United States,1450
+countries_ips,2,CN China,1347
+countries_ips,3,KR South Korea,520
+countries_ips,4,RU Russia,496
+countries_ips,5,UA Ukraine,401
+countries_ips,6,IN India,372
+countries_ips,7,BR Brazil,317
+countries_ips,8,NL The Netherlands,316
+countries_ips,9,PK Pakistan,310
+countries_ips,10,AR Argentina,272
+countries_sessions,1,NL The Netherlands,144209
+countries_sessions,2,RU Russia,35512
+countries_sessions,3,US United States,21688
 countries_sessions,4,ID Indonesia,14146
-countries_sessions,5,FR France,12868
-countries_sessions,6,PK Pakistan,6776
-countries_sessions,7,CN China,6109
-countries_sessions,8,KR South Korea,4131
-countries_sessions,9,GB United Kingdom,3933
-countries_sessions,10,SE Sweden,3355
-networks_ips,1,AS4766 Korea Telecom,414
-networks_ips,2,AS396982 Google LLC,376
-networks_ips,3,AS4134 Chinanet,331
-networks_ips,4,AS4837 CHINA UNICOM China169 Backbone,207
-networks_ips,5,AS8075 Microsoft Corporation,193
-networks_ips,6,"AS14061 DigitalOcean, LLC",178
-networks_ips,7,AS9541 Cyber Internet Services (Private) Limited,166
-networks_ips,8,"AS137718 Beijing Volcano Engine Technology Co., Ltd.",153
-networks_ips,9,AS25369 Hydra Communications Ltd,149
+countries_sessions,5,FR France,14097
+countries_sessions,6,PK Pakistan,6856
+countries_sessions,7,CN China,6227
+countries_sessions,8,KR South Korea,4174
+countries_sessions,9,GB United Kingdom,3985
+countries_sessions,10,SE Sweden,3426
+networks_ips,1,AS4766 Korea Telecom,420
+networks_ips,2,AS396982 Google LLC,380
+networks_ips,3,AS4134 Chinanet,333
+networks_ips,4,AS4837 CHINA UNICOM China169 Backbone,213
+networks_ips,5,AS8075 Microsoft Corporation,197
+networks_ips,6,"AS14061 DigitalOcean, LLC",182
+networks_ips,7,AS9541 Cyber Internet Services (Private) Limited,171
+networks_ips,8,"AS137718 Beijing Volcano Engine Technology Co., Ltd.",155
+networks_ips,9,AS25369 Hydra Communications Ltd,152
 networks_ips,10,AS198364 BANATSYNC SRL,126
-networks_sessions,1,AS198364 BANATSYNC SRL,140930
+networks_sessions,1,AS198364 BANATSYNC SRL,144526
 networks_sessions,2,"AS57044 JSC ""ER-Telecom Holding""",33820
-networks_sessions,3,"AS398101 GoDaddy.com, LLC",16339
+networks_sessions,3,"AS398101 GoDaddy.com, LLC",16348
 networks_sessions,4,AS149722 Dinas Komunikasi dan Informatika Kabupaten Kepulauan Metawai,13607
-networks_sessions,5,AS47890 UNMANAGED LTD,6694
+networks_sessions,5,AS47890 UNMANAGED LTD,6871
 networks_sessions,6,AS199457 SolidCore Hosting LTD,5760
-networks_sessions,7,AS4766 Korea Telecom,3618
-networks_sessions,8,AS9541 Cyber Internet Services (Private) Limited,3126
-networks_sessions,9,AS48090 TECHOFF SRV LIMITED,2403
-networks_sessions,10,AS42237 w1n ltd,2362
-credentials,1,admin / admin,5971
-credentials,2,0 / 0,4265
-credentials,3,345gs5662d34 / 345gs5662d34,2013
-credentials,4,support / support,1702
-credentials,5,root / xc3511,1358
-credentials,6,root / admin,1315
-credentials,7,root / ,1303
-credentials,8,root / vizxv,1180
+networks_sessions,7,AS4766 Korea Telecom,3657
+networks_sessions,8,AS9541 Cyber Internet Services (Private) Limited,3175
+networks_sessions,9,AS42237 w1n ltd,2435
+networks_sessions,10,AS48090 TECHOFF SRV LIMITED,2422
+credentials,1,admin / admin,6032
+credentials,2,0 / 0,4406
+credentials,3,345gs5662d34 / 345gs5662d34,2063
+credentials,4,support / support,1726
+credentials,5,root / xc3511,1361
+credentials,6,root / ,1342
+credentials,7,root / admin,1333
+credentials,8,root / vizxv,1185
 credentials,9,enable / linuxshell,1151
-credentials,10,root / 123456,1018
-credentials,11,root / 3245gs5662d34,915
-credentials,12,root / 12345,859
-credentials,13,root / 888888,793
-credentials,14,root / root,748
-credentials,15,admin / password,725
-credentials,16,root / default,685
-credentials,17,root / 54321,676
-credentials,18,root / juantech,676
+credentials,10,root / 123456,1029
+credentials,11,root / 3245gs5662d34,936
+credentials,12,root / 12345,872
+credentials,13,root / 888888,796
+credentials,14,root / root,758
+credentials,15,admin / password,730
+credentials,16,root / default,691
+credentials,17,root / 54321,677
+credentials,18,root / juantech,677
 credentials,19,admin / ,675
-credentials,20,root / xmhdipc,674
-commands,1,uname -s -v -n -r -m,140329
+credentials,20,root / xmhdipc,675
+commands,1,uname -s -v -n -r -m,143914
 commands,2,"echo -e ""\x6F\x6B""",47354
-commands,3,sh,23243
-commands,4,shell,23198
-commands,5,system,23174
-commands,6,enable,22069
-commands,7,linuxshell,16954
-commands,8,sh .k,12030
-commands,9,"#!/bin/sh for proc_dir in /proc/*; do pid=${proc_dir##*/} result=$(ls -l ""/proc…",12020
-commands,10,/bin/busybox,8525
+commands,3,sh,23362
+commands,4,shell,23318
+commands,5,system,23293
+commands,6,enable,22190
+commands,7,linuxshell,17011
+commands,8,sh .k,12220
+commands,9,"#!/bin/sh for proc_dir in /proc/*; do pid=${proc_dir##*/} result=$(ls -l ""/proc…",12210
+commands,10,/bin/busybox,8637
 weeks,2026-W37,"start 2026-09-07, open days 1",247
 weeks,2026-W38,"start 2026-09-14, open days 7",25427
 weeks,2026-W39,"start 2026-09-21, open days 7",49288
@@ -93,10 +93,10 @@ weeks,2026-W40,"start 2026-09-28, open days 7",41196
 weeks,2026-W41,"start 2026-10-05, open days 7",40181
 weeks,2026-W42,"start 2026-10-12, open days 7",86248
 weeks,2026-W43,"start 2026-10-19, open days 1",4452
-weeks,2026-W44,"start 2026-10-26, open days 6",33372
-malware_families_files,1,Mirai,89
+weeks,2026-W44,"start 2026-10-26, open days 7",38363
+malware_families_files,1,Mirai,90
 malware_families_files,2,Gafgyt,5
 malware_families_files,3,Prometei,1
 malware_families_files,4,Ngioweb,1
-malware_families_files,,"known, no family",28
-malware_families_files,,unknown to MalwareBazaar,34
+malware_families_files,,"known, no family",29
+malware_families_files,,unknown to MalwareBazaar,36
